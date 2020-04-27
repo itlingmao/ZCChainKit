@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D44EC7AA2452828A006E672B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D44EC7A92452828A006E672B /* AppDelegate.m */; };
+		D44EC7AD2452828A006E672B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D44EC7AC2452828A006E672B /* SceneDelegate.m */; };
+		D44EC7B02452828A006E672B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D44EC7AF2452828A006E672B /* ViewController.m */; };
+		D44EC7B32452828A006E672B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44EC7B12452828A006E672B /* Main.storyboard */; };
+		D44EC7B62452828A006E672B /* ZCChainKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D44EC7B42452828A006E672B /* ZCChainKit.xcdatamodeld */; };
+		D44EC7B824528290006E672B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44EC7B724528290006E672B /* Assets.xcassets */; };
+		D44EC7BB24528290006E672B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44EC7B924528290006E672B /* LaunchScreen.storyboard */; };
+		D44EC7BE24528290006E672B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D44EC7BD24528290006E672B /* main.m */; };
+		D44EC7C824528290006E672B /* ZCChainKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D44EC7C724528290006E672B /* ZCChainKitUITests.m */; };
+		D44EC7D52452830C006E672B /* UIView+ZCChainView.m in Sources */ = {isa = PBXBuildFile; fileRef = D44EC7D42452830C006E672B /* UIView+ZCChainView.m */; };
+		D44EC7D824528326006E672B /* ZCChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D44EC7D724528326006E672B /* ZCChainModel.m */; };
+		D44EC7DB24528724006E672B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = D44EC7D924528724006E672B /* UIView+Frame.m */; };
+		D44EC7DE2452B49A006E672B /* ZCChainButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D44EC7DD2452B49A006E672B /* ZCChainButtonModel.m */; };
+		D44EC7E12452B5F0006E672B /* ZCChainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D44EC7E02452B5F0006E672B /* ZCChainViewModel.m */; };
+		D44EC7E42452B6AA006E672B /* ZCChainLabelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D44EC7E32452B6AA006E672B /* ZCChainLabelModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D44EC7C424528290006E672B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D44EC79D2452828A006E672B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D44EC7A42452828A006E672B;
+			remoteInfo = ZCChainKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D44EC7A52452828A006E672B /* ZCChainKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCChainKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44EC7A82452828A006E672B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D44EC7A92452828A006E672B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D44EC7AB2452828A006E672B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D44EC7AC2452828A006E672B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D44EC7AE2452828A006E672B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D44EC7AF2452828A006E672B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D44EC7B22452828A006E672B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D44EC7B52452828A006E672B /* ZCChainKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZCChainKit.xcdatamodel; sourceTree = "<group>"; };
+		D44EC7B724528290006E672B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D44EC7BA24528290006E672B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D44EC7BC24528290006E672B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D44EC7BD24528290006E672B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D44EC7C324528290006E672B /* ZCChainKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCChainKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44EC7C724528290006E672B /* ZCChainKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCChainKitUITests.m; sourceTree = "<group>"; };
+		D44EC7C924528290006E672B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D44EC7D32452830C006E672B /* UIView+ZCChainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZCChainView.h"; sourceTree = "<group>"; };
+		D44EC7D42452830C006E672B /* UIView+ZCChainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZCChainView.m"; sourceTree = "<group>"; };
+		D44EC7D624528326006E672B /* ZCChainModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCChainModel.h; sourceTree = "<group>"; };
+		D44EC7D724528326006E672B /* ZCChainModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCChainModel.m; sourceTree = "<group>"; };
+		D44EC7D924528724006E672B /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		D44EC7DA24528724006E672B /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		D44EC7DC2452B49A006E672B /* ZCChainButtonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCChainButtonModel.h; sourceTree = "<group>"; };
+		D44EC7DD2452B49A006E672B /* ZCChainButtonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCChainButtonModel.m; sourceTree = "<group>"; };
+		D44EC7DF2452B5F0006E672B /* ZCChainViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCChainViewModel.h; sourceTree = "<group>"; };
+		D44EC7E02452B5F0006E672B /* ZCChainViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCChainViewModel.m; sourceTree = "<group>"; };
+		D44EC7E22452B6AA006E672B /* ZCChainLabelModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCChainLabelModel.h; sourceTree = "<group>"; };
+		D44EC7E32452B6AA006E672B /* ZCChainLabelModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCChainLabelModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D44EC7A22452828A006E672B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44EC7C024528290006E672B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D44EC79C2452828A006E672B = {
+			isa = PBXGroup;
+			children = (
+				D44EC7A72452828A006E672B /* ZCChainKit */,
+				D44EC7C624528290006E672B /* ZCChainKitUITests */,
+				D44EC7A62452828A006E672B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D44EC7A62452828A006E672B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D44EC7A52452828A006E672B /* ZCChainKit.app */,
+				D44EC7C324528290006E672B /* ZCChainKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D44EC7A72452828A006E672B /* ZCChainKit */ = {
+			isa = PBXGroup;
+			children = (
+				D44EC7D2245282D6006E672B /* ZCChainKit */,
+				D44EC7A82452828A006E672B /* AppDelegate.h */,
+				D44EC7A92452828A006E672B /* AppDelegate.m */,
+				D44EC7AB2452828A006E672B /* SceneDelegate.h */,
+				D44EC7AC2452828A006E672B /* SceneDelegate.m */,
+				D44EC7AE2452828A006E672B /* ViewController.h */,
+				D44EC7AF2452828A006E672B /* ViewController.m */,
+				D44EC7B12452828A006E672B /* Main.storyboard */,
+				D44EC7B724528290006E672B /* Assets.xcassets */,
+				D44EC7B924528290006E672B /* LaunchScreen.storyboard */,
+				D44EC7BC24528290006E672B /* Info.plist */,
+				D44EC7BD24528290006E672B /* main.m */,
+				D44EC7B42452828A006E672B /* ZCChainKit.xcdatamodeld */,
+			);
+			path = ZCChainKit;
+			sourceTree = "<group>";
+		};
+		D44EC7C624528290006E672B /* ZCChainKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D44EC7C724528290006E672B /* ZCChainKitUITests.m */,
+				D44EC7C924528290006E672B /* Info.plist */,
+			);
+			path = ZCChainKitUITests;
+			sourceTree = "<group>";
+		};
+		D44EC7D2245282D6006E672B /* ZCChainKit */ = {
+			isa = PBXGroup;
+			children = (
+				D44EC7DA24528724006E672B /* UIView+Frame.h */,
+				D44EC7D924528724006E672B /* UIView+Frame.m */,
+				D44EC7D32452830C006E672B /* UIView+ZCChainView.h */,
+				D44EC7D42452830C006E672B /* UIView+ZCChainView.m */,
+				D44EC7D624528326006E672B /* ZCChainModel.h */,
+				D44EC7D724528326006E672B /* ZCChainModel.m */,
+				D44EC7DC2452B49A006E672B /* ZCChainButtonModel.h */,
+				D44EC7DD2452B49A006E672B /* ZCChainButtonModel.m */,
+				D44EC7DF2452B5F0006E672B /* ZCChainViewModel.h */,
+				D44EC7E02452B5F0006E672B /* ZCChainViewModel.m */,
+				D44EC7E22452B6AA006E672B /* ZCChainLabelModel.h */,
+				D44EC7E32452B6AA006E672B /* ZCChainLabelModel.m */,
+			);
+			path = ZCChainKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D44EC7A42452828A006E672B /* ZCChainKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D44EC7CC24528290006E672B /* Build configuration list for PBXNativeTarget "ZCChainKit" */;
+			buildPhases = (
+				D44EC7A12452828A006E672B /* Sources */,
+				D44EC7A22452828A006E672B /* Frameworks */,
+				D44EC7A32452828A006E672B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZCChainKit;
+			productName = ZCChainKit;
+			productReference = D44EC7A52452828A006E672B /* ZCChainKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D44EC7C224528290006E672B /* ZCChainKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D44EC7CF24528290006E672B /* Build configuration list for PBXNativeTarget "ZCChainKitUITests" */;
+			buildPhases = (
+				D44EC7BF24528290006E672B /* Sources */,
+				D44EC7C024528290006E672B /* Frameworks */,
+				D44EC7C124528290006E672B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D44EC7C524528290006E672B /* PBXTargetDependency */,
+			);
+			name = ZCChainKitUITests;
+			productName = ZCChainKitUITests;
+			productReference = D44EC7C324528290006E672B /* ZCChainKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D44EC79D2452828A006E672B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "张超";
+				TargetAttributes = {
+					D44EC7A42452828A006E672B = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					D44EC7C224528290006E672B = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = D44EC7A42452828A006E672B;
+					};
+				};
+			};
+			buildConfigurationList = D44EC7A02452828A006E672B /* Build configuration list for PBXProject "ZCChainKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D44EC79C2452828A006E672B;
+			productRefGroup = D44EC7A62452828A006E672B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D44EC7A42452828A006E672B /* ZCChainKit */,
+				D44EC7C224528290006E672B /* ZCChainKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D44EC7A32452828A006E672B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44EC7BB24528290006E672B /* LaunchScreen.storyboard in Resources */,
+				D44EC7B824528290006E672B /* Assets.xcassets in Resources */,
+				D44EC7B32452828A006E672B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44EC7C124528290006E672B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D44EC7A12452828A006E672B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44EC7DB24528724006E672B /* UIView+Frame.m in Sources */,
+				D44EC7D824528326006E672B /* ZCChainModel.m in Sources */,
+				D44EC7BE24528290006E672B /* main.m in Sources */,
+				D44EC7E12452B5F0006E672B /* ZCChainViewModel.m in Sources */,
+				D44EC7E42452B6AA006E672B /* ZCChainLabelModel.m in Sources */,
+				D44EC7B02452828A006E672B /* ViewController.m in Sources */,
+				D44EC7D52452830C006E672B /* UIView+ZCChainView.m in Sources */,
+				D44EC7DE2452B49A006E672B /* ZCChainButtonModel.m in Sources */,
+				D44EC7AA2452828A006E672B /* AppDelegate.m in Sources */,
+				D44EC7AD2452828A006E672B /* SceneDelegate.m in Sources */,
+				D44EC7B62452828A006E672B /* ZCChainKit.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44EC7BF24528290006E672B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44EC7C824528290006E672B /* ZCChainKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D44EC7C524528290006E672B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D44EC7A42452828A006E672B /* ZCChainKit */;
+			targetProxy = D44EC7C424528290006E672B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D44EC7B12452828A006E672B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D44EC7B22452828A006E672B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D44EC7B924528290006E672B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D44EC7BA24528290006E672B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D44EC7CA24528290006E672B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D44EC7CB24528290006E672B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D44EC7CD24528290006E672B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P95YVH5K78;
+				INFOPLIST_FILE = ZCChainKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.lingmao.ZCChainKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D44EC7CE24528290006E672B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P95YVH5K78;
+				INFOPLIST_FILE = ZCChainKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.lingmao.ZCChainKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D44EC7D024528290006E672B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P95YVH5K78;
+				INFOPLIST_FILE = ZCChainKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.lingmao.ZCChainKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZCChainKit;
+			};
+			name = Debug;
+		};
+		D44EC7D124528290006E672B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P95YVH5K78;
+				INFOPLIST_FILE = ZCChainKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.lingmao.ZCChainKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZCChainKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D44EC7A02452828A006E672B /* Build configuration list for PBXProject "ZCChainKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44EC7CA24528290006E672B /* Debug */,
+				D44EC7CB24528290006E672B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D44EC7CC24528290006E672B /* Build configuration list for PBXNativeTarget "ZCChainKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44EC7CD24528290006E672B /* Debug */,
+				D44EC7CE24528290006E672B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D44EC7CF24528290006E672B /* Build configuration list for PBXNativeTarget "ZCChainKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44EC7D024528290006E672B /* Debug */,
+				D44EC7D124528290006E672B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D44EC7B42452828A006E672B /* ZCChainKit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D44EC7B52452828A006E672B /* ZCChainKit.xcdatamodel */,
+			);
+			currentVersion = D44EC7B52452828A006E672B /* ZCChainKit.xcdatamodel */;
+			path = ZCChainKit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D44EC79D2452828A006E672B /* Project object */;
+}
