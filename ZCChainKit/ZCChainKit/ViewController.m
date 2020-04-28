@@ -41,9 +41,9 @@
     .zc_button.zc_titleLabel(@"点滴1", UIControlStateNormal);
     
     [buttonChain setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-//    buttonChain.zc_chainModel.zc_button.zc_titleLabel(<#NSString * _Nonnull#>, <#UIControlState#>)
-//    buttonChain.zc_chainButtonModel.zc_titleLabel(<#NSString * _Nonnull#>, <#UIControlState#>)
-//    buttonChain.zc_chainModel.zc_frameMake(<#CGRect#>)
+    buttonChain.zc_chainModel.zc_button.zc_titleLabel(@"点滴1", UIControlStateNormal);
+    buttonChain.zc_chainButtonModel.zc_titleLabel(@"点滴1", UIControlStateNormal);
+    buttonChain.zc_chainModel.zc_frameMake(CGRectMake(viewChain.x, viewChain.y + viewChain.height + 20, viewChain.width, viewChain.height));
     
     [self.view addSubview:buttonChain];
     

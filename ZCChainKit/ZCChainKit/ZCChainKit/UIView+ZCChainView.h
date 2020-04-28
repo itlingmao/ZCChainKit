@@ -23,6 +23,7 @@ typedef ZCChainButtonModel *_Nullable(^buttonModel)(UIButton *);
 - (ZCChainLabelModel *)zc_chainLabelModel;
 - (ZCChainButtonModel *)zc_chainButtonModel;
 - (buttonModel)zc_chainButtonModelMake;
+
 @end
 
 NS_ASSUME_NONNULL_END

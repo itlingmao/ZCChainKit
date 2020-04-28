@@ -36,7 +36,7 @@
 }
 - (void)zc_chainInit:(NSString *)chain{
     
-    id myObj = [[NSClassFromString(chain) alloc] init];
+//    id myObj = [[NSClassFromString(chain) alloc] init];
     
 }
 - (ZCChainViewModel *)zc_chainViewModel;{
@@ -116,7 +116,6 @@
 {
     return objc_getAssociatedObject(self, _cmd);
 }
-
 
 @end
 

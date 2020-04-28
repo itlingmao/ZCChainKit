@@ -29,6 +29,8 @@
     return _zc_frameMake;
 }
 
+
+
 -(ZCChainViewModel *)zc_view {
     if (!_zc_view) {
         _zc_view = [[ZCChainViewModel alloc] init];
